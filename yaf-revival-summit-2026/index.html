@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YAF USA Revival Summit 2026 — Program Schedule</title>
+<meta name="description" content="Run of show for the YAF USA Revival Summit 2026, REVIVE 2.0, July 30 – August 1, Winners Chapel International, Bowie, Maryland.">
+<meta name="theme-color" content="#2A0507">
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;1,400&family=Bevan&family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ox:#2A0507;
+  --crimson:#6E0F14;
+  --crimson-lo:#4A090D;
+  --gold:#E0A626;
+  --gold-lo:#8C6415;
+  --gold-hi:#F7D778;
+  --cream:#F3E9DA;
+  --cream-dim:#C9B49A;
+  --ember:#FF7A18;
+  --navy:#16224C;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  background:
+    radial-gradient(1200px 700px at 50% -10%, #5C0C11 0%, transparent 60%),
+    var(--ox);
+  color:var(--cream);
+  font-family:"Barlow","Helvetica Neue",Arial,sans-serif;
+  font-size:16px;
+  line-height:1.45;
+}
+.wrap{max-width:1000px;margin:0 auto;padding:0 22px 90px}
+
+/* ---------- sticky day nav ---------- */
+.nav{
+  position:sticky;top:0;z-index:20;
+  background:rgba(42,5,7,.92);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid rgba(224,166,38,.28);
+}
+.nav ul{
+  max-width:1000px;margin:0 auto;padding:0 22px;
+  display:flex;gap:26px;list-style:none;
+}
+.nav a{
+  display:block;padding:13px 0;
+  font-family:"Oswald",sans-serif;font-weight:400;
+  letter-spacing:.16em;text-transform:uppercase;font-size:12px;
+  color:var(--cream-dim);text-decoration:none;
+  border-bottom:2px solid transparent;
+}
+.nav a:hover,.nav a:focus-visible{color:var(--gold-hi);border-bottom-color:var(--gold)}
+
+/* ---------- cover ---------- */
+.cover{
+  position:relative;overflow:hidden;
+  padding:74px 22px 0;
+  text-align:center;
+  border-bottom:1px solid rgba(224,166,38,.3);
+}
+.cover::before{ /* flag stripe */
+  content:"";position:absolute;top:0;left:0;right:0;height:6px;
+  background:linear-gradient(90deg,var(--crimson) 0 33.3%,#F3E9DA 33.3% 66.6%,var(--navy) 66.6% 100%);
+  opacity:.85;
+}
+.cover::after{ /* ember lift */
+  content:"";position:absolute;left:50%;bottom:-140px;transform:translateX(-50%);
+  width:120%;height:280px;pointer-events:none;
+  background:radial-gradient(closest-side, rgba(255,122,24,.34), rgba(255,122,24,0) 72%);
+}
+.cover-inner{position:relative;z-index:1;max-width:1000px;margin:0 auto}
+.org{
+  font-family:"Oswald",sans-serif;font-weight:300;
+  letter-spacing:.44em;text-transform:uppercase;
+  font-size:12px;color:var(--gold);margin:0 0 26px;
+  padding-left:.44em;
+}
+.title{
+  font-family:"Bevan","Georgia",serif;font-weight:400;
+  font-size:clamp(38px,8.2vw,86px);line-height:.92;
+  margin:0;text-transform:uppercase;
+  color:#FBF4E8;
+  text-shadow:0 2px 0 rgba(140,100,21,.55), 0 14px 40px rgba(255,122,24,.28);
+}
+.title .yr{display:block;color:var(--gold);text-shadow:0 2px 0 rgba(0,0,0,.35)}
+.kicker{
+  margin:22px 0 0;
+  font-family:"Oswald",sans-serif;font-weight:300;
+  letter-spacing:.3em;text-transform:uppercase;font-size:12px;
+  color:var(--cream-dim);padding-left:.3em;
+}
+.strip{
+  margin:40px auto 0;max-width:880px;
+  display:grid;grid-template-columns:1fr 1fr 1fr;
+  border-top:1px solid rgba(224,166,38,.45);
+  border-bottom:1px solid rgba(224,166,38,.45);
+}
+.strip div{padding:24px 16px}
+.strip div+div{border-left:1px solid rgba(224,166,38,.28)}
+.strip .lab{
+  display:block;font-family:"Oswald",sans-serif;font-weight:300;
+  font-size:10px;letter-spacing:.28em;text-transform:uppercase;
+  color:var(--gold-lo);margin-bottom:9px;padding-left:.28em;
+}
+.strip .val{
+  font-family:"Oswald",sans-serif;font-weight:500;
+  font-size:clamp(14px,1.7vw,19px);letter-spacing:.06em;
+  text-transform:uppercase;line-height:1.3;color:var(--cream);
+}
+.strip .theme .val{font-family:"Bevan",serif;letter-spacing:.02em;color:var(--gold);font-size:clamp(19px,2.6vw,28px)}
+.verses{
+  margin:26px 0 0;padding-bottom:56px;
+  font-family:"Oswald",sans-serif;font-weight:300;font-size:12px;
+  letter-spacing:.24em;text-transform:uppercase;color:var(--cream-dim);
+  padding-left:.24em;
+}
+
+/* ---------- day band ---------- */
+.day{margin-top:66px}
+.day-band{display:flex;align-items:center;gap:22px;margin-bottom:26px}
+.day-num{
+  font-family:"Bevan",serif;font-size:clamp(46px,7vw,74px);line-height:.8;
+  color:transparent;-webkit-text-stroke:1.5px rgba(224,166,38,.7);
+}
+.day-id{flex:1;border-bottom:1px solid rgba(224,166,38,.35);padding-bottom:8px}
+.day-label{
+  display:block;font-family:"Oswald",sans-serif;font-weight:300;font-size:11px;
+  letter-spacing:.32em;text-transform:uppercase;color:var(--gold);padding-left:.32em;
+}
+.day-id h2{
+  margin:4px 0 0;font-family:"Bevan",serif;font-weight:400;
+  font-size:clamp(21px,3.4vw,34px);text-transform:uppercase;letter-spacing:.01em;color:#FBF4E8;
+}
+
+/* ---------- session card ---------- */
+.card{
+  background:linear-gradient(180deg, rgba(110,15,20,.5), rgba(42,5,7,.5));
+  border:1px solid rgba(224,166,38,.3);
+  border-top:3px solid var(--gold);
+  padding:26px 26px 8px;
+  margin-bottom:20px;
+}
+.s-head{display:flex;flex-wrap:wrap;gap:14px;align-items:baseline;justify-content:space-between}
+.s-head h3{
+  margin:0;font-family:"Bevan",serif;font-weight:400;
+  font-size:clamp(19px,2.6vw,27px);text-transform:uppercase;color:var(--gold-hi);
+}
+.s-kicker{
+  display:block;margin-top:5px;font-family:"Oswald",sans-serif;font-weight:300;
+  font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:var(--cream-dim);padding-left:.26em;
+}
+.s-meta{text-align:right;font-family:"Oswald",sans-serif}
+.s-window{display:block;font-weight:500;font-size:17px;letter-spacing:.05em;color:var(--cream)}
+.s-len{display:block;font-weight:300;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-lo);margin-top:3px;padding-left:.2em}
+.s-note{margin:12px 0 0;font-size:13.5px;font-style:italic;color:var(--cream-dim)}
+.s-scripture{
+  margin:16px 0 6px;padding:9px 0;
+  border-top:1px solid rgba(224,166,38,.22);
+  border-bottom:1px solid rgba(224,166,38,.22);
+  font-family:"Oswald",sans-serif;font-weight:300;font-size:10.5px;
+  letter-spacing:.22em;text-transform:uppercase;color:var(--gold);padding-left:.22em;
+}
+
+/* ---------- rows ---------- */
+.rows{margin-top:6px}
+.rowhead,.row{
+  display:grid;
+  grid-template-columns:168px 1fr 80px;
+  gap:18px;align-items:center;
+}
+.rowhead{
+  padding:10px 0 8px;
+  font-family:"Oswald",sans-serif;font-weight:300;font-size:9.5px;
+  letter-spacing:.26em;text-transform:uppercase;color:var(--gold-lo);
+}
+.rowhead span:last-child{text-align:right}
+.row{
+  padding:11px 0;
+  border-top:1px solid rgba(243,233,218,.11);
+}
+.row .time{
+  font-family:"Oswald",sans-serif;font-weight:400;font-size:14px;
+  letter-spacing:.03em;color:var(--gold);white-space:nowrap;
+  font-variant-numeric:tabular-nums;
+}
+.row .name{font-size:16px;color:var(--cream)}
+.dur{display:flex;align-items:center;gap:10px;justify-content:flex-end}
+.bar{display:block;width:56px;height:3px;background:rgba(243,233,218,.16)}
+.bar i{display:block;height:3px;background:var(--gold);}
+.mins{
+  font-family:"Oswald",sans-serif;font-weight:300;font-size:11px;
+  letter-spacing:.09em;text-transform:uppercase;color:var(--cream-dim);
+  white-space:nowrap;min-width:52px;text-align:right;
+}
+.over{color:var(--gold)}
+
+.row--anchor{background:linear-gradient(90deg, rgba(224,166,38,.13), rgba(224,166,38,0) 72%)}
+.row--anchor .name{
+  font-family:"Bevan",serif;font-size:clamp(15px,2vw,18px);
+  text-transform:uppercase;letter-spacing:.01em;color:#FBF4E8;
+}
+.row--anchor .bar i{background:var(--ember)}
+.row--pre .name,.row--pre .time{color:var(--cream-dim);font-style:italic}
+.row--pre .time{font-style:normal;color:rgba(224,166,38,.6)}
+
+/* ---------- interval ---------- */
+.interval{
+  display:flex;gap:18px;align-items:baseline;
+  margin:0 0 20px;padding:14px 26px;
+  border:1px dashed rgba(224,166,38,.4);
+  background:rgba(0,0,0,.22);
+}
+.i-time{
+  font-family:"Oswald",sans-serif;font-weight:400;font-size:13px;
+  letter-spacing:.03em;color:var(--gold);white-space:nowrap;min-width:150px;
+}
+.i-label{
+  font-family:"Oswald",sans-serif;font-weight:300;font-size:12px;
+  letter-spacing:.2em;text-transform:uppercase;color:var(--cream-dim);padding-left:.2em;
+}
+
+/* ---------- time zone note ---------- */
+.tz{
+  margin:6px 0 0;padding-top:12px;
+  border-top:1px solid rgba(224,166,38,.28);
+  font-family:"Oswald",sans-serif;font-weight:300;font-size:10.5px;
+  letter-spacing:.24em;text-transform:uppercase;color:var(--gold);
+  text-align:right;padding-left:.24em;
+}
+.tz--foot{border-top:0;padding-top:0;margin:0;text-align:right}
+
+/* ---------- footer ---------- */
+.foot{
+  margin-top:64px;padding-top:26px;
+  border-top:1px solid rgba(224,166,38,.35);
+  display:flex;flex-wrap:wrap;gap:18px;justify-content:space-between;align-items:baseline;
+}
+.foot p{margin:0;font-size:13.5px;color:var(--cream-dim);max-width:56ch}
+.foot .mark{
+  font-family:"Bevan",serif;font-size:15px;text-transform:uppercase;color:var(--gold);letter-spacing:.02em;
+}
+
+@media (max-width:720px){
+  .strip{grid-template-columns:1fr}
+  .strip div+div{border-left:0;border-top:1px solid rgba(224,166,38,.28)}
+  .rowhead{display:none}
+  .row{grid-template-columns:1fr;gap:4px;padding:13px 0}
+  .dur{justify-content:flex-start}
+  .bar{width:44px}
+  .mins{min-width:0;text-align:left}
+  .s-meta{text-align:left}
+  .interval{flex-direction:column;gap:4px}
+  .card{padding:20px 18px 6px}
+  .nav ul{gap:18px;overflow-x:auto}
+}
+
+@media (prefers-reduced-motion:no-preference){
+  .card{animation:rise .5s ease both}
+  @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+}
+
+/* ---------- print ---------- */
+@media print{
+  @page{size:letter portrait;margin:14mm}
+  html,body{background:#fff !important;color:#1B1B1B}
+  .nav{display:none}
+  .wrap{max-width:none;padding:0}
+  .cover{padding:0 0 18px;border-bottom:2px solid var(--gold)}
+  .cover::after{display:none}
+  .cover::before{position:static;display:block;height:5px;margin-bottom:16px}
+  .title{color:var(--crimson);text-shadow:none;font-size:44px}
+  .title .yr{color:var(--gold-lo);text-shadow:none}
+  .org,.day-label,.s-scripture,.strip .lab{color:var(--gold-lo)}
+  .kicker,.verses,.s-note,.mins,.i-label,.foot p{color:#4A4A4A}
+  .verses{padding-bottom:0}
+  .strip .val,.day-id h2,.row .name{color:#1B1B1B}
+  .strip .theme .val{color:var(--crimson)}
+  .day{margin-top:22px;break-inside:avoid}
+  .day+.day{break-before:page}
+  .day-num{-webkit-text-stroke:1.2px var(--crimson);font-size:44px}
+  .card{
+    break-inside:avoid;background:#fff;border:1px solid #C9AE6A;
+    border-top:3px solid var(--crimson);padding:16px 16px 4px;margin-bottom:12px;
+    animation:none;
+  }
+  .s-head h3{color:var(--crimson);font-size:19px}
+  .s-window{color:#1B1B1B;font-size:15px}
+  .row{padding:6px 0;border-top:1px solid #E2DACB}
+  .row .time{color:var(--crimson);font-size:12px}
+  .row .name{font-size:13px}
+  .row--anchor{background:#FAF3E2}
+  .row--anchor .name{color:var(--crimson);font-size:14px}
+  .row--anchor .bar i{background:var(--crimson)}
+  .bar{background:#E2DACB}
+  .bar i{background:var(--gold-lo)}
+  .interval{background:#F6F1E6;border-color:#C9AE6A;padding:8px 16px;margin-bottom:12px}
+  .i-time{color:var(--crimson)}
+  .foot{margin-top:24px}
+  .tz{color:var(--gold-lo);border-top-color:#C9AE6A;font-size:9.5px;margin-top:2px;padding-top:8px}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav" aria-label="Jump to a day">
+  <ul>
+    <li><a href="#day-01">Day 1 — Thu</a></li>
+    <li><a href="#day-02">Day 2 — Fri</a></li>
+    <li><a href="#day-03">Day 3 — Sat</a></li>
+  </ul>
+</nav>
+
+<header class="cover">
+  <div class="cover-inner">
+    <p class="org">Youth Alive Fellowship USA</p>
+    <h1 class="title">Revival Summit<span class="yr">2026</span></h1>
+    <p class="kicker">Program Schedule &nbsp;·&nbsp; Run of Show</p>
+    <div class="strip">
+      <div><span class="lab">Dates</span><span class="val">July 30 – August 1, 2026</span></div>
+      <div class="theme"><span class="lab">Theme</span><span class="val">Revive 2.0</span></div>
+      <div><span class="lab">Venue</span><span class="val">Winners Chapel International<br>Bowie, Maryland</span></div>
+    </div>
+    <p class="verses">Theme scriptures &nbsp;Psalm 85:6 &nbsp;·&nbsp; 2 Chronicles 7:14</p>
+  </div>
+</header>
+
+<main class="wrap">
+    <div class="day" id="day-01">
+      <div class="day-band">
+        <span class="day-num">01</span>
+        <div class="day-id">
+          <span class="day-label">Day One</span>
+          <h2>Thursday, July 30</h2>
+        </div>
+      </div>
+      <section class="card">
+        <header class="s-head">
+          <div class="s-id">
+            <h3>Opening Night</h3>
+            
+          </div>
+          <div class="s-meta">
+            <span class="s-window">6:00 PM – 8:10 PM</span>
+            <span class="s-len">2 hrs 10 min</span>
+          </div>
+        </header>
+        <p class="s-note">Doors and worship room open 5:30 PM</p>
+        <div class="s-scripture">Theme scriptures &nbsp;Psalm 85:6 &nbsp;·&nbsp; 2 Chronicles 7:14</div>
+        <div class="rows">
+          <div class="rowhead"><span>Time</span><span>Session</span><span>Length</span></div>
+        <div class="row row--pre">
+          <div class="time">5:30 PM – 6:00 PM</div>
+          <div class="name">Registration &amp; Check-In / Worship Room</div>
+          <div class="dur"><span class="mins">30 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">6:00 PM – 6:02 PM</div>
+          <div class="name">Opening Prayer</div>
+          <div class="dur"><span class="mins">2 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">6:02 PM – 6:15 PM</div>
+          <div class="name">Praise &amp; Worship</div>
+          <div class="dur"><span class="mins">13 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">6:15 PM – 6:20 PM</div>
+          <div class="name">Prayer 1</div>
+          <div class="dur"><span class="mins">5 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">6:20 PM – 6:25 PM</div>
+          <div class="name">Prayer 2</div>
+          <div class="dur"><span class="mins">5 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">6:25 PM – 6:30 PM</div>
+          <div class="name">Opening Charge</div>
+          <div class="dur"><span class="mins">5 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">6:30 PM – 6:37 PM</div>
+          <div class="name">Variety 1</div>
+          <div class="dur"><span class="mins">7 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">6:37 PM – 6:45 PM</div>
+          <div class="name">Variety 2</div>
+          <div class="dur"><span class="mins">8 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">6:45 PM – 6:50 PM</div>
+          <div class="name">Announcements</div>
+          <div class="dur"><span class="mins">5 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">6:50 PM – 6:58 PM</div>
+          <div class="name">Testimony</div>
+          <div class="dur"><span class="mins">8 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">6:58 PM – 7:06 PM</div>
+          <div class="name">Offering / Youth Alive Fellowship Choir</div>
+          <div class="dur"><span class="mins">8 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">7:06 PM – 7:11 PM</div>
+          <div class="name">Prayer of Expectation</div>
+          <div class="dur"><span class="mins">5 min</span></div>
+        </div>
+        <div class="row row--anchor">
+          <div class="time">7:11 PM – 7:56 PM</div>
+          <div class="name">The Word</div>
+          <div class="dur"><span class="mins">45 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">7:56 PM – 8:06 PM</div>
+          <div class="name">Prayer of Repentance &amp; Consecration</div>
+          <div class="dur"><span class="mins">10 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">8:06 PM – 8:10 PM</div>
+          <div class="name">Closing</div>
+          <div class="dur"><span class="mins">4 min</span></div>
+        </div>
+        </div>
+      </section>
+      <p class="tz">All times are Eastern Standard Time (EST)</p>
+    </div>
+    <div class="day" id="day-02">
+      <div class="day-band">
+        <span class="day-num">02</span>
+        <div class="day-id">
+          <span class="day-label">Day Two</span>
+          <h2>Friday, July 31</h2>
+        </div>
+      </div>
+      <section class="card">
+        <header class="s-head">
+          <div class="s-id">
+            <h3>The Fire Hour</h3>
+            <span class="s-kicker">Appointment With Jesus</span>
+          </div>
+          <div class="s-meta">
+            <span class="s-window">7:30 AM – 8:30 AM</span>
+            <span class="s-len">1 hr</span>
+          </div>
+        </header>
+        
+        <div class="s-scripture">Theme scriptures &nbsp;Psalm 85:6 &nbsp;·&nbsp; 2 Chronicles 7:14</div>
+        <div class="rows">
+          <div class="rowhead"><span>Time</span><span>Session</span><span>Length</span></div>
+        <div class="row">
+          <div class="time">7:30 AM – 7:32 AM</div>
+          <div class="name">Opening Prayer</div>
+          <div class="dur"><span class="mins">2 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">7:32 AM – 7:45 AM</div>
+          <div class="name">Praise &amp; Worship</div>
+          <div class="dur"><span class="mins">13 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">7:45 AM – 7:50 AM</div>
+          <div class="name">Opening Charge</div>
+          <div class="dur"><span class="mins">5 min</span></div>
+        </div>
+        <div class="row row--anchor">
+          <div class="time">7:50 AM – 8:25 AM</div>
+          <div class="name">Personal Supplication / Thanksgiving</div>
+          <div class="dur"><span class="mins">35 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">8:25 AM – 8:30 AM</div>
+          <div class="name">Announcements / Closing</div>
+          <div class="dur"><span class="mins">5 min</span></div>
+        </div>
+        </div>
+      </section>
+      <div class="interval"><span class="i-time">8:30 AM – 8:45 AM</span><span class="i-label">Short break</span></div>
+      <section class="card">
+        <header class="s-head">
+          <div class="s-id">
+            <h3>Morning Session</h3>
+            
+          </div>
+          <div class="s-meta">
+            <span class="s-window">8:45 AM – 11:40 AM</span>
+            <span class="s-len">2 hrs 55 min</span>
+          </div>
+        </header>
+        
+        <div class="s-scripture">Theme scriptures &nbsp;Psalm 85:6 &nbsp;·&nbsp; 2 Chronicles 7:14</div>
+        <div class="rows">
+          <div class="rowhead"><span>Time</span><span>Session</span><span>Length</span></div>
+        <div class="row">
+          <div class="time">8:45 AM – 8:47 AM</div>
+          <div class="name">Opening Prayer</div>
+          <div class="dur"><span class="mins">2 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">8:47 AM – 9:00 AM</div>
+          <div class="name">Praise &amp; Worship</div>
+          <div class="dur"><span class="mins">13 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">9:00 AM – 9:05 AM</div>
+          <div class="name">Prayer 1</div>
+          <div class="dur"><span class="mins">5 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">9:05 AM – 9:10 AM</div>
+          <div class="name">Prayer 2</div>
+          <div class="dur"><span class="mins">5 min</span></div>
+        </div>
+        <div class="row row--anchor">
+          <div class="time">9:10 AM – 9:45 AM</div>
+          <div class="name">Word 2</div>
+          <div class="dur"><span class="mins">35 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">9:45 AM – 9:52 AM</div>
+          <div class="name">Variety 1</div>
+          <div class="dur"><span class="mins">7 min</span></div>
+        </div>
+        <div class="row row--anchor">
+          <div class="time">9:52 AM – 10:27 AM</div>
+          <div class="name">Word 3</div>
+          <div class="dur"><span class="mins">35 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">10:27 AM – 10:34 AM</div>
+          <div class="name">Variety 2</div>
+          <div class="dur"><span class="mins">7 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">10:34 AM – 10:42 AM</div>
+          <div class="name">Choir Ministration</div>
+          <div class="dur"><span class="mins">8 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">10:42 AM – 10:45 AM</div>
+          <div class="name">Announcement</div>
+          <div class="dur"><span class="mins">3 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">10:45 AM – 10:53 AM</div>
+          <div class="name">Testimony</div>
+          <div class="dur"><span class="mins">8 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">10:53 AM – 11:01 AM</div>
+          <div class="name">Choir Ministration</div>
+          <div class="dur"><span class="mins">8 min</span></div>
+        </div>
+        <div class="row row--anchor">
+          <div class="time">11:01 AM – 11:36 AM</div>
+          <div class="name">Word 4 / Altar Call</div>
+          <div class="dur"><span class="mins">35 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">11:36 AM – 11:40 AM</div>
+          <div class="name">Closing</div>
+          <div class="dur"><span class="mins">4 min</span></div>
+        </div>
+        </div>
+      </section>
+      <div class="interval"><span class="i-time">11:40 AM – 12:30 PM</span><span class="i-label">Break &amp; personal time</span></div>
+      <section class="card">
+        <header class="s-head">
+          <div class="s-id">
+            <h3>Workshops &amp; Breakout Sessions</h3>
+            
+          </div>
+          <div class="s-meta">
+            <span class="s-window">12:30 PM – 2:00 PM</span>
+            <span class="s-len">1 hr 30 min</span>
+          </div>
+        </header>
+        
+        <div class="s-scripture">Theme scriptures &nbsp;Psalm 85:6 &nbsp;·&nbsp; 2 Chronicles 7:14</div>
+        <div class="rows">
+          <div class="rowhead"><span>Time</span><span>Session</span><span>Length</span></div>
+        <div class="row">
+          <div class="time">12:30 PM – 12:32 PM</div>
+          <div class="name">Opening Prayer</div>
+          <div class="dur"><span class="mins">2 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">12:32 PM – 12:45 PM</div>
+          <div class="name">Praise &amp; Worship</div>
+          <div class="dur"><span class="mins">13 min</span></div>
+        </div>
+        <div class="row row--anchor">
+          <div class="time">12:45 PM – 1:35 PM</div>
+          <div class="name">Breakout Session</div>
+          <div class="dur"><span class="mins">50 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">1:35 PM – 1:55 PM</div>
+          <div class="name">Questions and Answers</div>
+          <div class="dur"><span class="mins">20 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">1:55 PM – 2:00 PM</div>
+          <div class="name">Blessing / Closing</div>
+          <div class="dur"><span class="mins">5 min</span></div>
+        </div>
+        </div>
+      </section>
+      <div class="interval"><span class="i-time">2:00 PM – 5:00 PM</span><span class="i-label">Lunch, interactions, rest, personal time</span></div>
+      <section class="card">
+        <header class="s-head">
+          <div class="s-id">
+            <h3>Judah Praise Night</h3>
+            
+          </div>
+          <div class="s-meta">
+            <span class="s-window">6:00 PM – 9:00 PM</span>
+            <span class="s-len">3 hrs</span>
+          </div>
+        </header>
+        <p class="s-note">Worship room opens 5:30 PM</p>
+        <div class="s-scripture">Theme scriptures &nbsp;Psalm 85:6 &nbsp;·&nbsp; 2 Chronicles 7:14</div>
+        <div class="rows">
+          <div class="rowhead"><span>Time</span><span>Session</span><span>Length</span></div>
+        <div class="row row--pre">
+          <div class="time">5:30 PM – 6:00 PM</div>
+          <div class="name">Worship Room</div>
+          <div class="dur"><span class="mins">30 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">6:00 PM – 6:03 PM</div>
+          <div class="name">Opening Prayer</div>
+          <div class="dur"><span class="mins">3 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">6:03 PM – 6:18 PM</div>
+          <div class="name">Opening Worship Medley</div>
+          <div class="dur"><span class="mins">15 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">6:18 PM – 6:23 PM</div>
+          <div class="name">Thanksgiving Prayer</div>
+          <div class="dur"><span class="mins">5 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">6:23 PM – 6:28 PM</div>
+          <div class="name">Welcoming Word</div>
+          <div class="dur"><span class="mins">5 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">6:28 PM – 6:38 PM</div>
+          <div class="name">YAF Praise Set 1</div>
+          <div class="dur"><span class="mins">10 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">6:38 PM – 6:43 PM</div>
+          <div class="name">Variety Presentation 1</div>
+          <div class="dur"><span class="mins">5 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">6:43 PM – 6:50 PM</div>
+          <div class="name">Offering / YAF Ministration</div>
+          <div class="dur"><span class="mins">7 min</span></div>
+        </div>
+        <div class="row row--anchor">
+          <div class="time">6:50 PM – 7:30 PM</div>
+          <div class="name">Word / Altar Call</div>
+          <div class="dur"><span class="mins">40 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">7:30 PM – 7:48 PM</div>
+          <div class="name">High Praise — Guest Minister 1</div>
+          <div class="dur"><span class="mins">18 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">7:48 PM – 7:58 PM</div>
+          <div class="name">YAF Praise Set 2</div>
+          <div class="dur"><span class="mins">10 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">7:58 PM – 8:08 PM</div>
+          <div class="name">YAF Praise Set 3</div>
+          <div class="dur"><span class="mins">10 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">8:08 PM – 8:15 PM</div>
+          <div class="name">Variety Presentation 2</div>
+          <div class="dur"><span class="mins">7 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">8:15 PM – 8:27 PM</div>
+          <div class="name">YAF Praise Set 4</div>
+          <div class="dur"><span class="mins">12 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">8:27 PM – 8:39 PM</div>
+          <div class="name">YAF Praise Set 5</div>
+          <div class="dur"><span class="mins">12 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">8:39 PM – 8:57 PM</div>
+          <div class="name">High Praise — Guest Minister 2</div>
+          <div class="dur"><span class="mins">18 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">8:57 PM – 9:00 PM</div>
+          <div class="name">Blessing / Closing</div>
+          <div class="dur"><span class="mins">3 min</span></div>
+        </div>
+        </div>
+      </section>
+      <p class="tz">All times are Eastern Standard Time (EST)</p>
+    </div>
+    <div class="day" id="day-03">
+      <div class="day-band">
+        <span class="day-num">03</span>
+        <div class="day-id">
+          <span class="day-label">Day Three</span>
+          <h2>Saturday, August 1</h2>
+        </div>
+      </div>
+      <section class="card">
+        <header class="s-head">
+          <div class="s-id">
+            <h3>The Fire Hour</h3>
+            <span class="s-kicker">Appointment With Jesus</span>
+          </div>
+          <div class="s-meta">
+            <span class="s-window">7:30 AM – 8:30 AM</span>
+            <span class="s-len">1 hr</span>
+          </div>
+        </header>
+        
+        <div class="s-scripture">Theme scriptures &nbsp;Psalm 85:6 &nbsp;·&nbsp; 2 Chronicles 7:14</div>
+        <div class="rows">
+          <div class="rowhead"><span>Time</span><span>Session</span><span>Length</span></div>
+        <div class="row">
+          <div class="time">7:30 AM – 7:32 AM</div>
+          <div class="name">Opening Prayer</div>
+          <div class="dur"><span class="mins">2 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">7:32 AM – 7:45 AM</div>
+          <div class="name">Praise &amp; Worship</div>
+          <div class="dur"><span class="mins">13 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">7:45 AM – 7:50 AM</div>
+          <div class="name">Opening Charge</div>
+          <div class="dur"><span class="mins">5 min</span></div>
+        </div>
+        <div class="row row--anchor">
+          <div class="time">7:50 AM – 8:25 AM</div>
+          <div class="name">Personal Supplication / Thanksgiving</div>
+          <div class="dur"><span class="mins">35 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">8:25 AM – 8:30 AM</div>
+          <div class="name">Announcements / Closing</div>
+          <div class="dur"><span class="mins">5 min</span></div>
+        </div>
+        </div>
+      </section>
+      <div class="interval"><span class="i-time">8:30 AM – 8:45 AM</span><span class="i-label">Short break</span></div>
+      <section class="card">
+        <header class="s-head">
+          <div class="s-id">
+            <h3>Impartation Service</h3>
+            
+          </div>
+          <div class="s-meta">
+            <span class="s-window">8:45 AM – 11:00 AM</span>
+            <span class="s-len">2 hrs 15 min</span>
+          </div>
+        </header>
+        
+        <div class="s-scripture">Theme scriptures &nbsp;Psalm 85:6 &nbsp;·&nbsp; 2 Chronicles 7:14</div>
+        <div class="rows">
+          <div class="rowhead"><span>Time</span><span>Session</span><span>Length</span></div>
+        <div class="row">
+          <div class="time">8:45 AM – 8:47 AM</div>
+          <div class="name">Opening Prayer</div>
+          <div class="dur"><span class="mins">2 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">8:47 AM – 9:00 AM</div>
+          <div class="name">Praise &amp; Worship</div>
+          <div class="dur"><span class="mins">13 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">9:00 AM – 9:05 AM</div>
+          <div class="name">Thanksgiving Prayer 1</div>
+          <div class="dur"><span class="mins">5 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">9:05 AM – 9:10 AM</div>
+          <div class="name">Thanksgiving Prayer 2</div>
+          <div class="dur"><span class="mins">5 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">9:10 AM – 9:15 AM</div>
+          <div class="name">Welcome Word</div>
+          <div class="dur"><span class="mins">5 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">9:15 AM – 9:20 AM</div>
+          <div class="name">Prayer 1</div>
+          <div class="dur"><span class="mins">5 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">9:20 AM – 9:25 AM</div>
+          <div class="name">Prayer 2</div>
+          <div class="dur"><span class="mins">5 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">9:25 AM – 9:30 AM</div>
+          <div class="name">Announcement</div>
+          <div class="dur"><span class="mins">5 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">9:30 AM – 9:40 AM</div>
+          <div class="name">Testimony</div>
+          <div class="dur"><span class="mins">10 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">9:40 AM – 9:50 AM</div>
+          <div class="name">Offering / Youth Alive Fellowship Mass Choir</div>
+          <div class="dur"><span class="mins">10 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">9:50 AM – 9:55 AM</div>
+          <div class="name">Prayer of Expectation</div>
+          <div class="dur"><span class="mins">5 min</span></div>
+        </div>
+        <div class="row row--anchor">
+          <div class="time">9:55 AM – 10:30 AM</div>
+          <div class="name">The Word</div>
+          <div class="dur"><span class="mins">35 min</span></div>
+        </div>
+        <div class="row row--anchor">
+          <div class="time">10:30 AM – 10:45 AM</div>
+          <div class="name">Impartation Session / Diverse Ministrations</div>
+          <div class="dur"><span class="mins">15 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">10:45 AM – 11:00 AM</div>
+          <div class="name">High Praise / Closing</div>
+          <div class="dur"><span class="mins">15 min</span></div>
+        </div>
+        </div>
+      </section>
+      <div class="interval"><span class="i-time">11:00 AM – 11:15 AM</span><span class="i-label">Transition to the ordinance</span></div>
+      <section class="card">
+        <header class="s-head">
+          <div class="s-id">
+            <h3>Ordinance</h3>
+            
+          </div>
+          <div class="s-meta">
+            <span class="s-window">11:15 AM – 1:15 PM</span>
+            <span class="s-len">2 hrs</span>
+          </div>
+        </header>
+        
+        <div class="s-scripture">Theme scriptures &nbsp;Psalm 85:6 &nbsp;·&nbsp; 2 Chronicles 7:14</div>
+        <div class="rows">
+          <div class="rowhead"><span>Time</span><span>Session</span><span>Length</span></div>
+        <div class="row">
+          <div class="time">11:15 AM – 11:17 AM</div>
+          <div class="name">Opening Prayer</div>
+          <div class="dur"><span class="mins">2 min</span></div>
+        </div>
+        <div class="row">
+          <div class="time">11:17 AM – 11:25 AM</div>
+          <div class="name">Praise &amp; Worship</div>
+          <div class="dur"><span class="mins">8 min</span></div>
+        </div>
+        <div class="row row--anchor">
+          <div class="time">11:25 AM – 12:10 PM</div>
+          <div class="name">Water Baptism / Holy Ghost Baptism</div>
+          <div class="dur"><span class="mins">45 min</span></div>
+        </div>
+        <div class="row row--anchor">
+          <div class="time">12:10 PM – 1:10 PM</div>
+          <div class="name">Extended time of praying in the Spirit</div>
+          <div class="dur"><span class="mins">1 hr <span class="over">+</span></span></div>
+        </div>
+        <div class="row">
+          <div class="time">1:10 PM – 1:15 PM</div>
+          <div class="name">Closing</div>
+          <div class="dur"><span class="mins">5 min</span></div>
+        </div>
+        </div>
+      </section>
+      <p class="tz">All times are Eastern Standard Time (EST)</p>
+    </div>
+
+  <footer class="foot">
+    <span class="mark">Revive 2.0</span>
+    <p class="tz tz--foot">All times are Eastern Standard Time (EST)</p>
+  </footer>
+</main>
+
+
+
+</body></html>
